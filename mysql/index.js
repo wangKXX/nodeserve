@@ -1,0 +1,39 @@
+const mysql = require('mysql');
+const config = require('./config');
+const pool = mysql.createPool(config.mysql);
+
+const user = {
+  queryByID: 'select * from user where id=?',
+  addUser: 'insert into user (id, nick, icon, des, pwd) values (?,?,?,?,?)',
+  queryFriends: 'select * from user t where t.id in(select a.fid from user_relation a where a.id=?)'
+}
+function queryFactry(params, $sql) {
+  return new Promise((resovle, reject) => {
+    pool.getConnection((error, con) => {
+      if (error) {
+        reject({
+          status: 500,
+          message: '系统异常'
+        })
+      }
+      console.log(params, $sql)
+      con.query($sql, [ ...params ], (err, result) => {
+        if (err) {
+          reject({
+            status: 500,
+            message: '系统异常'
+          })
+        } else {
+          resovle(result);
+          // con.end();
+          con.release();
+        }
+      });
+    });
+  });
+}
+module.exports = {
+  selectByID: id => queryFactry([id], user.queryByID),
+  addUser: params => queryFactry(params, user.addUser),
+  getUserList: id => queryFactry([id], user.queryFriends)
+}

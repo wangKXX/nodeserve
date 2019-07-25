@@ -1,14 +1,11 @@
-// const express = require('express');
-// const app = express();
-// const io = require('./socket')
-// const serve = app.listen(3000, () => console.log('Example app listening on port 3000!'));
-// io.listener(serve);
 
 const webSocket = require('ws');
 const factory = require('./messageFactory');
+const seviceStart = require('./sevice');
 const webSocketService = webSocket.Server;
+seviceStart();
 const wss = new webSocketService({
-  port: 3000
+  port: 3030
 });
 
 wss.on('connection', function connection(ws) {
