@@ -2,7 +2,7 @@ let factory = [];
 
 function addSocket(socket, options) {
   const flag = factory.filter(item => item.userId === options.userId);
-  if (!flag) {
+  if (!flag.length) {
     const config = {
       socket,
       userId: options.userId
@@ -26,12 +26,10 @@ function sendAll(mesg) {
 
 // 私聊模式
 function sendToOne(data) {
-  const { re, mesg } = data;
+  const { mesg } = data;
   for (let i = 0; i < factory.length; i++) {
-    for (let j = 0; i < re.length; j++) {
-      if (factory[i].userId === re[j]) {
-        factory[i].socket.send(mesg);
-      }
+    if (factory[i].userId === mesg.user.id) {
+      factory[i].socket.send(JSON.stringify(mesg));
     }
   }
 }
