@@ -3,13 +3,15 @@ const webSocket = require('ws');
 const factory = require('./messageFactory');
 const seviceStart = require('./sevice');
 const webSocketService = webSocket.Server;
+const redisInit = require('./redis');
+
 seviceStart();
+redisInit();
 const wss = new webSocketService({
   port: 3030
 });
 
 wss.on('connection', function connection(ws) {
-  console.log('有链接', ws)
   ws.on('message', function incoming(data) {
     wss.clients.forEach(item => {
       if (item.readyState === webSocket.OPEN && item === ws) {
@@ -20,6 +22,10 @@ wss.on('connection', function connection(ws) {
         } else if (data.type === 'ping') {
           item.send(JSON.stringify({type: 'pong', userId: data.userId}));
         } else if (data.type === 'mesg') {
+          factory.sendToOne(data);
+        } else if (data.type === 'outline') {
+          factory.removeSocket(data.userId);
+        } else if (data.type = 'add') {
           factory.sendToOne(data);
         }
       }

@@ -1,42 +1,51 @@
-let factory = [];
-
-function addSocket(socket, options) {
-  const flag = factory.filter(item => item.userId === options.userId);
-  if (!flag.length) {
-    const config = {
-      socket,
-      userId: options.userId
-    }
-    factory.push(config);
-  }
+const redisTools = require('../redis/tools');
+const uuidV4 = require('uuid/v4');
+let factory = {};
+async function addSocket(socket, options) {
+  // 有用户连接进来是查看是否有需要推送的消息
+  factory[options.userId] = socket;
+  console.log(factory, 'factory');
+  let res = await redisTools.lrange(options.userId);
+  res.forEach(item => {
+    socket.send(item);
+  });
+  // 推送完历史消息清空
+  redisTools.del(options.userId);
 }
 
 function removeSocket(userId) {
-  factory = factory.filter(item => {
-    return item.userId !== userId;
-  })
+  Reflect.deleteProperty(factory, userId);
 }
 
 // 系统推送消息
 function sendAll(mesg) {
-  factory.forEach(item => {
+  factory.values().forEach(item => {
     item.socket.send(mesg);
   })
 }
 
 // 私聊模式
 function sendToOne(data) {
-  const { mesg } = data;
-  for (let i = 0; i < factory.length; i++) {
-    if (factory[i].userId === mesg.user.id) {
-      factory[i].socket.send(JSON.stringify(mesg));
-    }
+  const { mesg: { user: { id }, type, re: { id: rId }} } = data;
+  if (type === 'add') {
+    redisTools.set(`add-${id}`, rId, 60 * 60 * 24 * 7); // 设置七天有效时间
+  }
+  if (checkISOnline(id)) {
+    factory[id].send(JSON.stringify(data.mesg));
+  } else {
+    // 用户已经离线的状态，将消息存储在redis中
+    redisTools.rPush(id, JSON.stringify(data.mesg));
   }
 }
 
 // 全部断开
 function closeAll() {
-  factory = [];
+  factory = {};
+}
+
+// 检查在线状态
+function checkISOnline(userId) {
+  return factory[userId];
 }
 
 module.exports = {
@@ -44,5 +53,6 @@ module.exports = {
   sendToOne,
   closeAll,
   sendAll,
-  removeSocket
+  removeSocket,
+  checkISOnline
 }

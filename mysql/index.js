@@ -11,18 +11,12 @@ function queryFactry(params, $sql) {
   return new Promise((resovle, reject) => {
     pool.getConnection((error, con) => {
       if (error) {
-        reject({
-          status: 500,
-          message: '系统异常'
-        })
+        reject(error)
       }
       console.log(params, $sql)
       con.query($sql, [ ...params ], (err, result) => {
         if (err) {
-          reject({
-            status: 500,
-            message: '系统异常'
-          })
+          reject(err)
         } else {
           resovle(result);
           // con.end();
@@ -35,5 +29,6 @@ function queryFactry(params, $sql) {
 module.exports = {
   selectByID: id => queryFactry([id], user.queryByID),
   addUser: params => queryFactry(params, user.addUser),
-  getUserList: id => queryFactry([id], user.queryFriends)
+  getUserList: id => queryFactry([id], user.queryFriends),
+  getUserById: id => queryFactry([id], user.queryByID)
 }

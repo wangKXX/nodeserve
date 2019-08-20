@@ -22,7 +22,7 @@ router.use('*', (req, res, next) => {
 });
 
 router.post('/userLogin', async (res, resp) => {
-  const { body: { params }} = res
+  const { body: { params } } = res
   console.log(params);
   const { id } = params;
   const pass = params.pwd;
@@ -30,7 +30,7 @@ router.post('/userLogin', async (res, resp) => {
   const result = await mysql.selectByID(id);
   if (result.length !== 0) {
     const pwd = result[0].pwd;
-    if (pwd === pass+'') {
+    if (pwd === pass + '') {
       resp.send(util.commonResp(0, 'success', result));
     } else {
       resp.send(util.commonResp(403, 'fail', '用户名或密码错误'));
@@ -43,20 +43,29 @@ router.post('/userLogin', async (res, resp) => {
 router.post('/register', upload.single('icon'), async (res, resp) => {
   const { body: { id, pwd, nick, des }, file: { path } } = res;
   const params = [
-    id,
+    +id,
     nick,
     path,
     des,
     pwd
   ]
-  const result = await mysql.addUser(params);
-  console.log(result)
-  resp.send(util.commonResp(0, 'success'))
+  try {
+    const result = await mysql.addUser(params);
+    resp.send(util.commonResp(0, 'success'))
+  } catch (error) {
+    console.log(error);
+  }
 });
+
 router.post('/getUserList', async (res, resp) => {
   const { id } = res.body;
   const result = await mysql.getUserList(id);
-  console.log(result);
   resp.send(util.commonResp(0, 'success', result));
 });
+
+router.post('/getUserById', async (res, resp) => {
+  const { id } = res.body;
+  const result = await mysql.getUserById(id);
+  resp.send(util.commonResp(0, 'success', result));
+})
 module.exports = router;

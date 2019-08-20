@@ -9,9 +9,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookie());
 function seviceStart() {
-  // const router = express.Router();
   app.use('/', router);
-  app.listen(3000, () => console.log('Example app listening on port 3000!'));
+  app.listen(3000, data => console.log('Example app listening on port 3000!', data));
 }
 
 module.exports = seviceStart;
