@@ -26,9 +26,10 @@ function sendAll(mesg) {
 
 // 私聊模式
 function sendToOne(data) {
+  console.log(data)
   const { mesg: { user: { id }, type, re: { id: rId }} } = data;
   if (type === 'add') {
-    redisTools.set(`add-${id}`, rId, 60 * 60 * 24 * 7); // 设置七天有效时间
+    redisTools.set(`add-${id}`, rId, 60 * 60 * 24 * 7); // 设置七天有效时间，请求者id
   }
   if (checkISOnline(id)) {
     factory[id].send(JSON.stringify(data.mesg));
@@ -37,7 +38,16 @@ function sendToOne(data) {
     redisTools.rPush(id, JSON.stringify(data.mesg));
   }
 }
-
+async function sendAddFriendMesg(id, fid) {
+  // 用请求者id(id)去获取redis打招呼信息
+  // const res = await redisTools.get(`add-${id}`)
+  if (checkISOnline(id)) {
+    factory[id].send(JSON.stringify(data.mesg));
+  } else {
+    // 用户已经离线的状态，将消息存储在redis中
+    redisTools.rPush(id, JSON.stringify(data.mesg));
+  }
+}
 // 全部断开
 function closeAll() {
   factory = {};
@@ -54,5 +64,6 @@ module.exports = {
   closeAll,
   sendAll,
   removeSocket,
-  checkISOnline
+  checkISOnline,
+  sendAddFriendMesg
 }

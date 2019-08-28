@@ -51,9 +51,12 @@ router.post('/register', upload.single('icon'), async (res, resp) => {
   ]
   try {
     const result = await mysql.addUser(params);
-    resp.send(util.commonResp(0, 'success'))
+    resp.send(util.commonResp(0, 'success'));
   } catch (error) {
     console.log(error);
+    if (error.errno === 1062) {
+      resp.send({data: { ...(util.commonResp(1062, 'error', { mesgContent: '您的账号已经被注册了！' }))}})
+    }
   }
 });
 

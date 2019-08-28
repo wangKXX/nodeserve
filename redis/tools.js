@@ -36,6 +36,18 @@ const linkList = {
         resolve(replay);
       })
     });
+  },
+
+  get(key) {
+    new Promise((resolve, reject) => {
+      redisClient.get(key, (error, data) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(data);
+        }
+      })
+    })
   }
 }
 
