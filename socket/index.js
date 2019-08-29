@@ -4,7 +4,7 @@ let ws = null;
 function listener(_serve) {
   ws = io.listen(_serve);
   ws.on('connect', socket => {
-    console.log(socket, 'success');
+    logger.log('info', socket);
   });
 }
 

@@ -9,9 +9,9 @@ app.use('/uploads', express.static('uploads'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookie());
+app.use('/', router);
 function seviceStart() {
-  app.use('/', router);
-  app.listen(3000, data => console.log('Example app listening on port 3000!', data));
+  app.listen(3000, '', () => logger.log('info', 'server start!!!'));
 }
 
 module.exports = seviceStart;

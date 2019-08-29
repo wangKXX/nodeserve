@@ -6,7 +6,9 @@ const webSocketService = webSocket.Server;
 const redisInit = require('./redis');
 const api = require('./mysql');
 const redisTools = require('./redis/tools');
+const winston = require('winston');
 
+global.logger = winston;
 seviceStart();
 redisInit();
 const wss = new webSocketService({
@@ -22,7 +24,8 @@ wss.on('connection', function connection(ws) {
         if (data.type === 'join') {
           factory.addSocket(item, data);
         } else if (data.type === 'ping') {
-          item.send(JSON.stringify({type: 'pong', userId: data.userId}));
+          logger.log('info', `pong-----${data.userId}`);
+          item.send(JSON.stringify({type: 'pong'}));
         } else if (data.type === 'mesg') {
           factory.sendToOne(data);
         } else if (data.type === 'logout') {

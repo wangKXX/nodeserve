@@ -29,7 +29,8 @@
       "exec_interpreter": "node",
       "exec_mode": "cluster",
       "autorestart": true,
-      "merge-logs": true
+      "merge_logs": true,
+      "instance_var": "INSTANCE_ID"
     }
   ]
 }

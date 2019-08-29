@@ -14,7 +14,6 @@ function queryFactry(params, $sql) {
       if (error) {
         reject(error)
       }
-      console.log(params, $sql)
       con.query($sql, [ ...params ], (err, result) => {
         if (err) {
           reject(err)

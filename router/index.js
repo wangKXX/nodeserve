@@ -21,9 +21,14 @@ router.use('*', (req, res, next) => {
   next();
 });
 
+// 统一日志打印到看板
+router.use('/', (req, res, next) => {
+  logger.log('info', req);
+  next();
+});
+
 router.post('/userLogin', async (res, resp) => {
   const { body: { params } } = res
-  console.log(params);
   const { id } = params;
   const pass = params.pwd;
   // 登入成功后生成sessionID,将用户的信息存储到redis
@@ -50,10 +55,10 @@ router.post('/register', upload.single('icon'), async (res, resp) => {
     pwd
   ]
   try {
-    const result = await mysql.addUser(params);
+    await mysql.addUser(params);
     resp.send(util.commonResp(0, 'success'));
   } catch (error) {
-    console.log(error);
+    logger.error(error);
     if (error.errno === 1062) {
       resp.send({data: { ...(util.commonResp(1062, 'error', { mesgContent: '您的账号已经被注册了！' }))}})
     }

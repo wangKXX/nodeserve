@@ -4,7 +4,7 @@ let factory = {};
 async function addSocket(socket, options) {
   // 有用户连接进来是查看是否有需要推送的消息
   factory[options.userId] = socket;
-  console.log(factory, 'factory');
+  logger.log('info', `${options.userId} online`);
   let res = await redisTools.lrange(options.userId);
   res.forEach(item => {
     socket.send(item);
@@ -14,6 +14,7 @@ async function addSocket(socket, options) {
 }
 
 function removeSocket(userId) {
+  logger.log('info', `${userId} outline`);
   Reflect.deleteProperty(factory, userId);
 }
 
@@ -26,7 +27,6 @@ function sendAll(mesg) {
 
 // 私聊模式
 function sendToOne(data) {
-  console.log(data)
   const { mesg: { user: { id }, type, re: { id: rId }} } = data;
   if (type === 'add') {
     redisTools.set(`add-${id}`, rId, 60 * 60 * 24 * 7); // 设置七天有效时间，请求者id
