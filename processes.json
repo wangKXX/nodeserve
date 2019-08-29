@@ -1,0 +1,35 @@
+{
+  "apps": [
+    {
+      "name": "node-app",
+      "cwd": "./", 
+      "script": "index.js",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "log/node-app/node-app.stderr.log",
+      "out_file": "log/node-app.stdout.log",
+      "min_uptime": "200s",
+      "max_restarts": 10,
+      "max_memory_restart": "100M",
+      "instances": 2,
+      "watch": [
+        "common",
+        "messageFactory",
+        "mysql",
+        "redis",
+        "reptile",
+        "router",
+        "sevice",
+        "socket",
+        "index.js"
+      ],
+      "ignore_watch": [
+        "log",
+        "pids"
+      ],
+      "exec_interpreter": "node",
+      "exec_mode": "cluster",
+      "autorestart": true,
+      "merge-logs": true
+    }
+  ]
+}

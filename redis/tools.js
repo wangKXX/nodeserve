@@ -13,6 +13,10 @@ const linkList = {
   set(key, value, time) {
     redisClient.set(key, value, 'EX', time);
   },
+
+  setString(key, val) {
+    redisClient.set(key, val, redis.print);
+  },
   lrange(key, start = 0, end = -1, cb) {
     return new Promise((resolve, reject) => {
       redisClient.lrange(key, start, end, function(err, data){
