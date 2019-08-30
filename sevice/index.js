@@ -6,18 +6,22 @@ const router = require('../router');
 const { fork } = require('child_process');
 const path = require('path');
 const redisTools = require('../redis/tools');
+const timer = require('node-schedule');
 
-const timer = setTimeout(() => {
-  clearTimeout(timer);
-  const childProcess = fork(path.resolve(__dirname, '../reptile/index.js'));
-  childProcess.on('message', msg => {
-    logger.log('info', msg);
-    redisTools.setString('hotNews', msg);
-  });
-  childProcess.on('exit', (code, signal) => {
-    logger.log('error', `process ${code} exit`)
-  });
-}, 1000 * 60 * 20); // 20分钟执行一次
+const schedule = () => {
+  const Timer = timer.scheduleJob('0 0 1 * * *', () => {
+    logger.log('info', 'timer start');
+    const childProcess = fork(path.resolve(__dirname, '../reptile/index.js'));
+    childProcess.on('message', msg => {
+      logger.log('info', msg);
+      redisTools.setString('hotNews', msg);
+    });
+    childProcess.on('exit', (code, signal) => {
+      logger.log('error', `process ${code} exit`);
+    });
+  })
+};
+schedule();
 
 app.use('/uploads', express.static('uploads'));
 app.use(bodyParser.json());

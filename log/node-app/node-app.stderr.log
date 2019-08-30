@@ -2823,3 +2823,223 @@ ReferenceError: path is not defined
 2019-08-30 15:09 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
 2019-08-30 15:09 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
 2019-08-30 15:09 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:40 +08:00: Fri, 30 Aug 2019 08:40:52 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:27:20
+2019-08-30 16:40 +08:00: Fri, 30 Aug 2019 08:40:52 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:27:20
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:40 +08:00: Fri, 30 Aug 2019 08:40:57 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:27:20
+2019-08-30 16:40 +08:00: Fri, 30 Aug 2019 08:40:57 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:27:20
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:40 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:41 +08:00: Fri, 30 Aug 2019 08:41:29 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:26:20
+2019-08-30 16:41 +08:00: Fri, 30 Aug 2019 08:41:29 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:26:20
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:41 +08:00: Fri, 30 Aug 2019 08:41:34 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:26:20
+2019-08-30 16:41 +08:00: Fri, 30 Aug 2019 08:41:34 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:26:20
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:41 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: Fri, 30 Aug 2019 08:42:36 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:27:20
+2019-08-30 16:42 +08:00: Fri, 30 Aug 2019 08:42:36 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:27:20
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: Fri, 30 Aug 2019 08:42:42 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:27:20
+2019-08-30 16:42 +08:00: Fri, 30 Aug 2019 08:42:43 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:27:20
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:42 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:43 +08:00: Fri, 30 Aug 2019 08:43:50 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:43 +08:00: Fri, 30 Aug 2019 08:43:50 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:43 +08:00: Fri, 30 Aug 2019 08:43:53 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:43 +08:00: Fri, 30 Aug 2019 08:43:53 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:43 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:44 +08:00: Fri, 30 Aug 2019 08:44:53 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:29:20
+2019-08-30 16:44 +08:00: Fri, 30 Aug 2019 08:44:53 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:29:20
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:44 +08:00: Fri, 30 Aug 2019 08:44:56 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:29:20
+2019-08-30 16:44 +08:00: Fri, 30 Aug 2019 08:44:56 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:29:20
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:44 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:45 +08:00: Fri, 30 Aug 2019 08:45:03 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:45 +08:00: Fri, 30 Aug 2019 08:45:03 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:45 +08:00: Fri, 30 Aug 2019 08:45:11 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:45 +08:00: Fri, 30 Aug 2019 08:45:11 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:45 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:51 +08:00: Fri, 30 Aug 2019 08:51:36 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:51 +08:00: Fri, 30 Aug 2019 08:51:36 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:51 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"timer start"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"timer start"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"[{\"title\":\"男歌手7个月前刚离婚称绝不再婚，如今却和女富商\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190743496192215\"},{\"title\":\"郭碧婷透漏婚礼细节，由向太操持，当着郭爸爸面喊\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190653496734484\"},{\"title\":\"李小璐贾乃亮真离婚了？甜馨疑似改名随母姓，网友\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190462964771507\"},{\"title\":\"赵薇4岁儿子曝光？与小四月打闹感情深，工作人员\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190406646498436\"},{\"title\":\"有钱真好！郑爽新房公开，4室一厅还有个大阳台，\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190386004056290\"},{\"title\":\"鲍蕾晒陆毅父女背影照，哭笑不得称女儿要和自己抢\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190336623302650\"},{\"title\":\"井柏然戴复古墨镜嘟嘴摸头显呆萌 西装配牛仔裤混\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190051043361534\"},{\"title\":\"有种“整容”叫杨烁，刮掉络腮胡子判若两人，像极\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190000486408837\"}]"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"error","message":"process 0 exit"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"[{\"title\":\"男歌手7个月前刚离婚称绝不再婚，如今却和女富商\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190743496192215\"},{\"title\":\"郭碧婷透漏婚礼细节，由向太操持，当着郭爸爸面喊\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190653496734484\"},{\"title\":\"李小璐贾乃亮真离婚了？甜馨疑似改名随母姓，网友\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190462964771507\"},{\"title\":\"赵薇4岁儿子曝光？与小四月打闹感情深，工作人员\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190406646498436\"},{\"title\":\"有钱真好！郑爽新房公开，4室一厅还有个大阳台，\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190386004056290\"},{\"title\":\"鲍蕾晒陆毅父女背影照，哭笑不得称女儿要和自己抢\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190336623302650\"},{\"title\":\"井柏然戴复古墨镜嘟嘴摸头显呆萌 西装配牛仔裤混\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190051043361534\"},{\"title\":\"有种“整容”叫杨烁，刮掉络腮胡子判若两人，像极\",\"href\":\"http://baijiahao.baidu.com/s?id=1643190000486408837\"}]"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"error","message":"process 0 exit"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:52 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: Fri, 30 Aug 2019 08:54:12 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:54 +08:00: Fri, 30 Aug 2019 08:54:12 GMT body-parser deprecated undefined extended: provide extended option at sevice/index.js:28:20
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"server start!!!"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
