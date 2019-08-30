@@ -22,8 +22,8 @@ router.use('*', (req, res, next) => {
 });
 
 // 统一日志打印到看板
-router.use('/', (req, res, next) => {
-  logger.log('info', req);
+router.use((req, res, next) => {
+  logger.log('info', {method: req.method, url: req.url, path: req.path, params: req.params});
   next();
 });
 
