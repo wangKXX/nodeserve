@@ -7,6 +7,8 @@ const { fork } = require('child_process');
 const path = require('path');
 const redisTools = require('../redis/tools');
 const timer = require('node-schedule');
+require('../const')
+
 
 const schedule = () => {
   const Timer = timer.scheduleJob('0 0 1 * * *', () => {

@@ -18,8 +18,7 @@ function getBaiDuHotNews() {
     process.send(JSON.stringify(hotNews));
     process.exit(); // 处理完成退出子进程
   });
-}
-
+};
 getBaiDuHotNews();
 process.on('message', mesg => {
   console.log(mesg);

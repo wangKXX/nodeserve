@@ -3043,3 +3043,29 @@ ReferenceError: path is not defined
 2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"redis connect sucess!"}
 2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"13333344444 online"}
 2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"15529677930 online"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:54 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:55 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:55 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:55 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:55 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:55 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:55 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
+2019-08-30 16:55 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----13333344444"}
+2019-08-30 16:55 +08:00: [winston] Attempt to write logs with no transports {"level":"info","message":"pong-----15529677930"}
